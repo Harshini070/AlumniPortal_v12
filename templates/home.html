@@ -1,11 +1,12 @@
 {% extends 'base.html' %}
 {% block title %}Home - KLH Lumni{% endblock %}
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home </title>
     {% load static %}
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
     <style>
         /* Global Styles */
         body {
@@ -160,6 +161,8 @@
     </style>
 </head>
 <body>
+
+
     <div class="container">
         {% block content %}
         <h1>Welcome to KLH - lumni</h1>
